@@ -28,3 +28,20 @@ CREATE TABLE transactions (
     account_id BIGINT,
     CONSTRAINT fk_transaction_account FOREIGN KEY (account_id) REFERENCES accounts(id)
 );
+
+
+
+
+
+
+
+| Username | Password    | Role  |
+| -------- | ----------- | ----- |
+| Hruthika | Hruthika123 | ADMIN |
+
+
+| Username | Password    | Role |
+| -------- | ----------- | ---- |
+| Hruthika | Hruthika123 | USER |
+
+
